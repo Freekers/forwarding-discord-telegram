@@ -17,7 +17,10 @@ const senderBot = new SenderBot(
   env.TELEGRAM_TOPIC_ID ? Number(env.TELEGRAM_TOPIC_ID) : null
 );
 
+senderBot.api
+  .getMe()
+  .then((me) => console.log(`Logged into Telegram as @${me.username}`));
+
 const client = new Bot(config, senderBot);
 
-senderBot.start();
 client.login(env.DISCORD_TOKEN);

@@ -1,6 +1,6 @@
 {
   "name": "forwarding-discord-telegram",
-  "version": "2.2.5",
+  "version": "2.3.0",
   "description": "Selfbot that forwards your Discord messages to Telegram",
   "main": "dist/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@grammyjs/auto-retry": "^2.0.2",
+    "discord-webhook-node": "^1.1.8",
     "discord.js": "^14.17.3",
     "discord.js-selfbot-v13": "^3.5.1",
     "dotenv": "^16.4.7",

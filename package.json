@@ -1,6 +1,6 @@
 {
   "name": "forwarding-discord-telegram",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Selfbot that forwards your Discord messages to Telegram",
   "main": "dist/index.js",
   "scripts": {
@@ -48,7 +48,7 @@
     "typescript-eslint": "^8.46.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "license": "MIT",
   "type": "module",

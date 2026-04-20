@@ -26,6 +26,8 @@ export interface Config {
   stackMessages?: boolean;
   showMessageDeletions?: boolean;
   showMessageUpdates?: boolean;
+  messageUpdateMaxAgeDays?: number;
+  messageDeleteMaxAgeDays?: number;
   replacementsDictionary?: Record<string, string>;
 }
 
@@ -47,6 +49,8 @@ export async function getConfig(): Promise<Config> {
       stackMessages: false,
       showMessageUpdates: false,
       showMessageDeletions: false,
+      messageUpdateMaxAgeDays: 1,
+      messageDeleteMaxAgeDays: 1,
       replacementsDictionary: {}
     } satisfies Config);
 

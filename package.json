@@ -39,7 +39,7 @@
   "devDependencies": {
     "@eslint/compat": "^2.1.1",
     "@eslint/js": "^10.0.1",
-    "@types/node": "^20.19.43",
+    "@types/node": "^22.20.4",
     "@typescript/native": "npm:typescript@^7.0.2",
     "eslint": "^10.11.0",
     "eslint-config-prettier": "^10.1.8",
@@ -49,9 +49,9 @@
     "typescript-eslint": "^8.70.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=22.0.0"
   },
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
+  "packageManager": "pnpm@11.27.1+sha512.a81d4c21b9b09a4b0aebf90ef5e527d4262bdda322d26082978cb549023ac6d9cafc98b19fffaa5c71db438a65f70224edb78d7311187861ff96480d1cdca23c"
 }
